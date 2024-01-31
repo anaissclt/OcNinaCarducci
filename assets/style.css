@@ -100,9 +100,12 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+
+/* CHANGEMENT DE COULEUR DU BACKGROUND */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: #12641A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -134,6 +137,10 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+
+figure {
+	font-size: 26px;
 }
 
 .quote {
